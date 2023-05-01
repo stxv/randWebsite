@@ -1,11 +1,14 @@
 .headerholder{
 background-color: turquoise;
-padding: 70px;
+padding: 50px;
 display:flex;
-justify-content: center;
+justify-content: space-between;
+align-items: flex-end;
 }
-.header{
+.firstheaderhalfholder,
+.secondheaderhalfholder{
     background-color: pink;
+    padding: 25px;
 }
 .bodyholder{
     background: black;
@@ -31,4 +34,7 @@ justify-content: center;
 .secondbodyholder{
     background-color:lime;
     padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
