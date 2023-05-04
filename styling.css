@@ -1,17 +1,56 @@
 .headerholder{
-background-color: turquoise;
-padding: 50px;
-display:flex;
-justify-content: space-between;
-align-items: flex-end;
+    background-color: turquoise;
+    padding: 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
-.firstheaderhalfholder,
-.secondheaderhalfholder{
+.firstheaderhalfholder{
+    position: relative;
+    display: inline-block;
     background-color: pink;
+    padding: 50px 150px 50px 150px;
+}
+.DDButton1{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+.dropdown1{
+    position: relative;
+    display: inline-block;
+}
+.DDB1content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.DDB1content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.DDB1content a:hover {
+    background-color: #ddd;
+}
+.dropdown1:hover .DDB1content {
+    display: block;
+}
+.dropdown1:hover .DDButton1 {
+    background-color: #3e8e41;
+}
+.secondheaderhalfholder{
+    background-color: blue;
     padding: 25px;
 }
 .bodyholder{
-    background: black;
+    background: rgb(145, 103, 103);
     padding: 100px 50px 100px 50px;
 }
 .bodysectionholder{
