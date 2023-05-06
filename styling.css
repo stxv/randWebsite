@@ -11,7 +11,7 @@
     justify-content: space-between;
 }
 .firstheaderhalfholder div{
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 15px;
 }
 .DDButton1{
     background-color: #04AA6D;
@@ -19,7 +19,7 @@
     padding: 16px;
     font-size: 16px;
     border: none;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 15px;
   }
 .dropdown1{
     position: relative;
